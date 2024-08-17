@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <form>
+            <input type="text" id="search" placeholder="Enter you city">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <section class="result">
+            <div class="city">
+                <p>Bokaro</p>
+                <img src="">
+            </div>
+            <div class="temp">
+                <img src="http://openweathermap.org/img/wn/10d@4x.png">
+                <div class="content">
+                    <span>31</span>
+                    <sup>o</sup>
+                </div>
+            </div>
+            <p class="description">
+                Overcast clouds
+            </p>
+            <ul>
+                <li>
+                    <span>Clouds</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span class="clouds">98</span>%
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span class="humidity">55</span>%
+                </li>
+                <!-- <li>
+                <span>Pressure</span>
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <span>1001hPa</span>
+            </li> -->
+            </ul>
+
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
